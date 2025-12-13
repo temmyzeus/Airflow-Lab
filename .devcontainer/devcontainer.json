@@ -3,7 +3,7 @@
 {
 	"name": "Apache Airflow Lab (v3)",
 
-	"image": "docker.io/apache/airflow:3.0.6",
+	"image": "mcr.microsoft.com/devcontainers/universal:noble",
 
 	// Minimum host requirements https://containers.dev/implementors/json_reference/#min-host-reqs
 	"hostRequirements": {
