@@ -10,7 +10,7 @@
 	// 		"AIRFLOW_IMAGE_VERSION": "3.0.6"
 	// 	}
 	// },
-	"postCreateCommand": "mkdir -p ./dags ./logs ./plugins ./config && echo -e AIRFLOW_UID=$(id -u) > .env && docker compose -f ./docker-compose.yaml up -d",
+	"postCreateCommand": "mkdir -p ./dags ./logs ./plugins ./config && echo -e AIRFLOW_UID=$(id -u) > '.env' && docker compose -f ./docker-compose.yaml up -d",
 	"postStartCommand": "docker compose -f ./docker-compose.yaml start",
 
 	// Minimum host requirements https://containers.dev/implementors/json_reference/#min-host-reqs
